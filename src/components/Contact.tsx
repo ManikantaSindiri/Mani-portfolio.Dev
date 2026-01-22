@@ -111,23 +111,23 @@ const Contact = () => {
             {[
               {
                 title: "BharatBox - IoT Solution",
-                image: "public\sparktank.jpg",
+                image: "\sparktank.jpg",
                 category: "Hackathon Winner"
               },
 
               {
                 title: "Research Presentation",
-                image: "public\gmrit.jpg",
+                image: "\gmrit.jpg",
                 category: "GMRIT Symposium"
               },
               {
                 title: "Coding Competition",
-                image: "public\anits.jpg",
+                image: "\anits.jpg",
                 category: "Samukuth ANITS"
               },
               {
                 title: "Fellowship Recognition",
-                image: "public\cmeri (1).jpg",
+                image: "\cmeri (1).jpg",
                 category: "IASc-INSA-NASI"
               }
             ].map((item, index) => (
@@ -166,7 +166,7 @@ const Contact = () => {
                 {/* Placeholder when image not available */}
                 <div className="absolute inset-0 flex items-center justify-center bg-dark-card/50">
                   <div className="text-center">
-                    <div className="text-4xl mb-2">🖼️</div>
+                    <div className="text-4xl mb-2"></div>
                     <p className="text-gray-400 text-xs px-2">
                       {item.category}
                     </p>

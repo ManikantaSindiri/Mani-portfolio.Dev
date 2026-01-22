@@ -16,7 +16,7 @@ const Certifications = () => {
       date: "2025",
       description: "Comprehensive understanding of AI concepts, algorithms, and applications.",
       verified: true,
-      href: "public\Mani_npterl certifcate.pdf"
+      href: "/Mani_npterl certifcate.pdf"
     },
     {
       title: "IASc–INSA–NASI Research Fellow",
@@ -25,7 +25,7 @@ const Certifications = () => {
       description: "Based on the project 'AUV Docking Classification Using Sonar Image Data'.",
       verified: true
       ,
-      href: "public\insa_certificate.jpg"
+      href: "/insa_certificate.jpg"
     },
     {
       title: "Sparktank Hackathon (2025)",
@@ -33,7 +33,7 @@ const Certifications = () => {
       date: "2025",
       description: "3rd Place - Developed “BharatBox,” an IoT-based machine monitoring solution (20,000 prize).",
       verified: true,
-      href: "public\sparktank _pic.jpg"
+      href: "/sparktank _pic.jpg"
     },
     {
       title: "Research Internship on AUV Docking Classification",
@@ -41,7 +41,7 @@ const Certifications = () => {
       date: "2025",
       description: "Selected among top 1% nationwide for research internship at CSIR–CMERI.",
       verified: true,
-      href: "public\mani_cmeri_certi (1).pdf"
+      href: "/mani_cmeri_certi (1).pdf"
     },
     
   ];
