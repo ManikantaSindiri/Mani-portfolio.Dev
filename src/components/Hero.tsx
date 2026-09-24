@@ -65,12 +65,12 @@ const Hero = () => {
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
             <motion.a
-             href="public\Mani_Resume_All.pdf"  // Path to the resume in public folder
-             download
-             whileHover={{ scale: 1.05, boxShadow: "0 0 25px rgba(211, 47, 47, 0.5)" }}
-             whileTap={{ scale: 0.95 }}
-             className="bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-full font-semibold flex items-center gap-2 transition-all duration-300 glow-border"
-             >
+              href="/mani_resume.pdf"
+              download="mani_resume.pdf"
+              whileHover={{ scale: 1.05, boxShadow: "0 0 25px rgba(211, 47, 47, 0.5)" }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-primary hover:bg-primary-dark text-white px-8 py-3 rounded-full font-semibold flex items-center gap-2 transition-all duration-300 glow-border"
+            >
               <Download size={20} />
               Download Resume
             </motion.a>
